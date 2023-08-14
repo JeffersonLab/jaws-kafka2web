@@ -1,2 +1,4 @@
 # jaws-kafka2web
-JAWS Web Gateway
+A gateway server and accompanying JavaScript client API to monitor JAWS over the web.
+
+
