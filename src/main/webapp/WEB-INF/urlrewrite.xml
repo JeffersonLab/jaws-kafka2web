@@ -1,0 +1,7 @@
+<urlrewrite>
+    <rule>
+        <note>Rewrite app version in modules for cache busting</note>
+        <from>^/resources/modules/jaws-kafka2web-(.*)/(.*)$</from>
+        <to>/resources/modules/jaws-kafka2web/$2</to>
+    </rule>
+</urlrewrite>
