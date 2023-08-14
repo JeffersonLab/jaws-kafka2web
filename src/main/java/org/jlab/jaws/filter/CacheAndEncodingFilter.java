@@ -20,7 +20,7 @@ import java.util.Arrays;
  * @author ryans
  */
 @WebFilter(filterName = "CacheAndEncodingFilter", urlPatterns = {"/*"}, dispatcherTypes = {DispatcherType.REQUEST, DispatcherType.FORWARD}, asyncSupported = true)
-public class CacheFilter implements Filter {
+public class CacheAndEncodingFilter implements Filter {
 
     private static final long EXPIRE_MILLIS = 31536000000L; // 365 days is max expires per spec
     
